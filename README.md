@@ -1,5 +1,6 @@
-# latest roblox macos offsets
+# latest roblox offsets
 no clue if ts works
+windows coming soon for both internal and external
 
 https://idaapi.github.io/roblox-macos-offsets/index.html
 
