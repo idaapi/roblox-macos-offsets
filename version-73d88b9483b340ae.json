@@ -45,6 +45,7 @@
         "lua_setfenv": "0x104155336",
         "FireClickDetector": "0x101987EBB",
         "lua_tolstring": "0x104153D34",
-        "GetGlobalState": "0x101827B0C"
+        "GetGlobalState": "0x101827B0C",
+        "RawTaskScheduler": "0x10657AFB0"
     }
 }
