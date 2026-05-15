@@ -50,4 +50,5 @@ namespace offsets {
     inline constexpr uintptr_t FireClickDetector = rebase(0x101987EBB);
     inline constexpr uintptr_t lua_tolstring = rebase(0x104153D34);
     inline constexpr uintptr_t GetGlobalState = rebase(0x101827B0C);
+    inline constexpr uintptr_t RawTaskScheduler = rebase(0x10657AFB0);
 }
