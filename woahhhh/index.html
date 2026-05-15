@@ -7,15 +7,15 @@
             background-color: black;
             color: white;
         }
-        /*again ai made this  */
+        /* Positions the black toggle in the top right */
         .top-right {
             position: absolute;
             top: 10px;
             right: 10px;
         }
-        /* ai made this */
+        /* Space for the discord section */
         .footer {
-            margin-top: 20px;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -28,21 +28,21 @@
     <p>offsets</p>
 
     <a href="https://raw.githubusercontent.com/idaapi/main/version-73d88b9483b340ae.hpp">
-        <button type="button">version-73d88b9483b340ae</button>
+        <button type="button">version-73d88b9483b340ae.hpp</button>
     </a>
 
     <a href="https://raw.githubusercontent.com/idaapi/main/version-73d88b9483b340ae.json">
-        <button type="button">version-73d88b9483b340ae</button>
+        <button type="button">version-73d88b9483b340ae.json</button>
     </a>
 
     <div class="footer">
-        <a href="https://discord.gg/KfBcu9UJc">
-        <button type="button">join my discord if you're going to use this</button>
+        <a href="https://discord.gg/KfBcu9UJc" target="_blank">
+            <button type="button">join my discord</button>
         </a>
     </div>
 
     <script>
-        //save to whatever ai made ts
+        // Check for saved dark mode
         if (localStorage.getItem('theme') === 'dark') {
             document.body.classList.add('dark-mode');
         }
@@ -50,7 +50,7 @@
         function toggleDark() {
             document.body.classList.toggle('dark-mode');
             
-            // saves whatever ai made it to save
+            // Save preference
             if (document.body.classList.contains('dark-mode')) {
                 localStorage.setItem('theme', 'dark');
             } else {
