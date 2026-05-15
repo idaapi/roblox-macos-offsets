@@ -1,2 +1,2 @@
-# roblox-macos-offsets
-no
+# latest roblox macos offsets
+no clue if ts works
